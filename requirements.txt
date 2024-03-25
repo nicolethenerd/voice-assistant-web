@@ -1,2 +1,5 @@
 Flask
 Gunicorn
+
+openai==1.14.3
+requests==2.31.0
