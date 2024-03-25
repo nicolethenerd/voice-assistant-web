@@ -68,7 +68,7 @@ def chat():
     data = request.get_json()
     user_message = data['message']
     response_message = complete_message(user_message)
-    return jsonify({'response': response_message.content})
+    return response_message.content
 
 if __name__ == '__main__':
     app.run(debug=True)
