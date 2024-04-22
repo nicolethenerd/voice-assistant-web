@@ -10,7 +10,7 @@ app = Flask(__name__)
 # load_dotenv()
 
 # openai_api_key=os.environ.get("OPENAI_API_KEY")
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="PUT_API_KEY_HERE")
 model = "gpt-3.5-turbo"
 
 prompt: str = '''
